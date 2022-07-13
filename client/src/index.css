@@ -1,0 +1,20 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+  font-family: "IranianSans !important";
+  src: local("IranianSans"), url(./fonts/iranSans.ttf) format("truetype");
+}
+
+body {
+  margin: 0;
+  font-family: "IranianSans !important";
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas,
+    "IranianSans !important", monospace;
+}
